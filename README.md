@@ -13,7 +13,7 @@ The Project was developed using the following environment:
 + **HyperVisor** : Oracle VM VirtualBox
 + **Hadoop Distribution**: [Hortonworks Data Platform (3.0.1) Sandbox](https://www.cloudera.com/downloads/hortonworks-sandbox.html) deployed on Virtual Box
 
-##PreRequisites:
+## PreRequisites:
 - HDP Sandbox deployed on Virtual Box or VM
 - Ability to use SCP and SSH
 - SBT should be installed in your system
