@@ -1,4 +1,4 @@
-# Homework 2
+# CS 441: HW 2:
  Description: Designed and implemented an instance of the map/reduce computational model on the DBLP Dataset.
 
 ### Indra Sai Kiran Valluru [UIN - 652537989]
@@ -180,4 +180,4 @@ WARN    168
 ## Deployment and Running on AWS
 I have uploaded a video on Youtube which demonstrates my deployment and running on AWS.
 
-Link: 
+Link: https://www.youtube.com/watch?v=MIXy2504Q9c
