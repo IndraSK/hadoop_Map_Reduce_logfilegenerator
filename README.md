@@ -3,12 +3,10 @@
 
 ### Indra Sai Kiran Valluru [UIN - 652537989]
 
+### Instructions:
 
 
-##Instructions
-
-
-##Environment
+### Environment:
 
 The Project was developed using the following environment:
 + **OS** : Windows 10
@@ -16,12 +14,12 @@ The Project was developed using the following environment:
 + **HyperVisor** : Oracle VM VirtualBox
 + **Hadoop Distribution**: [Hortonworks Data Platform (3.0.1) Sandbox](https://www.cloudera.com/downloads/hortonworks-sandbox.html) deployed on Virtual Box
 
-##PreRequisites
+##PreRequisites:
 - HDP Sandbox deployed on Virtual Box or VM
 - Ability to use SCP and SSH
 - SBT should be installed in your system
 
-## Steps to run the project
+## Steps to run the project:
 1. Clone the repository using the following command:
    ``````
 2. Now, navigate to the directory '' and run the following command:
@@ -55,7 +53,7 @@ hadoop jar <Jar File Name> MapandReduce.Job4 <Input File Name> Output3.csv
 
 
 ## Map-Reduce Tasks Implementation
-####Task1: Distribution of different types of messages across predefined time intervals and injected string instances of the designated regex pattern for these log message type.
+### Task1 - Distribution of different types of messages across predefined time intervals and injected string instances of the designated regex pattern for these log message type.
 The input to the mapper is the entire Log Messages from which it extracts the time intervals and outputs the list of different time intervals as key and number of messages for that type of message.
 The reducer receives the output from the mapper, and it sums up the count of messages for each type of message.
 + Command to run this Job
@@ -121,7 +119,7 @@ WARN_16:23:22   8
 WARN_16:23:23   17 
 
 ```
-####Task2:compute time intervals sorted in the descending order that contained most log messages of the type Error with injected regex pattern string instances
+### Task2 - Compute time intervals sorted in the descending order that contained most log messages of the type Error with injected regex pattern string instances
 The input to the mapper is the entire Log Messages from which it extracts the time intervals and only type of messages which belong to ERROR category and  outputs the list of different time intervals as key and number of messages for that type of message in  descending order.
 To DO: Did not sort the number of messages of type ERROR. 
 + Command to run this Job
@@ -141,7 +139,7 @@ hadoop fs -cat output2.csv/part-r-00000
 16:23:19        1 
 
 ```
-####Task3: for each message type you will produce the number of the generated log messages
+### Task3 - For each message type you will produce the number of the generated log messages
 The input to the mapper is the entire Log Messages from which it extracts the type of messages which belong to different category and  outputs the list of different categories as key and number of messages for that type of message.
 The reducer receives the output from the mapper, and it sums up the count of messages for each type of message.
 + Command to run this Job
@@ -160,7 +158,7 @@ INFO    704
 WARN    198 
 
 ```
-###Task4: Produce the number of characters in each log message for each log message type that contain the highest number of characters in the detected instances of the designated regex pattern.
+### Task4 - Produce the number of characters in each log message for each log message type that contain the highest number of characters in the detected instances of the designated regex pattern.
 The input to the mapper is the entire Log Messages from which it extracts the type of messages which belong to different category and  outputs the list of different categories as key and number of characters for that type of message.
 The reducer receives the output from the mapper, and it picks the highest number of characters present in messages for each type of message.
 + Command to run this Job
