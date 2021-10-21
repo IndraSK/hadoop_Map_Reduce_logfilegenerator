@@ -4,7 +4,9 @@
 ### Indra Sai Kiran Valluru [UIN - 652537989]
 
 ### Instructions:
+Clone the project
 
+```https://github.com/IndraSK/hadoop_Map_Reduce_logfilegenerator.git```
 
 ### Environment:
 
