@@ -21,7 +21,7 @@ The Project was developed using the following environment:
 ## Steps to run the project:
 1. Clone the repository using the following command:
    ```https://github.com/IndraSK/hadoop_Map_Reduce_logfilegenerator.git```
-2. Now, navigate to the directory '' and run the following command:
+2. Now, navigate to the directory 'LogFileGenerator' and run the following command:
    ```sbt clean compile assembly```
 3. A fat far file will be created in 'LogFileGenerator/target/scala-version'.
 4. This jar file has to be copied to the Hadoop File System. The following instructions are for those who have installed hortonworks and are using windows.
