@@ -4,9 +4,6 @@
 ### Indra Sai Kiran Valluru [UIN - 652537989]
 
 ### Instructions:
-Clone the project
-
-```https://github.com/IndraSK/hadoop_Map_Reduce_logfilegenerator.git```
 
 ### Environment:
 
@@ -23,7 +20,7 @@ The Project was developed using the following environment:
 
 ## Steps to run the project:
 1. Clone the repository using the following command:
-   ``````
+   ```https://github.com/IndraSK/hadoop_Map_Reduce_logfilegenerator.git```
 2. Now, navigate to the directory '' and run the following command:
    ```sbt clean compile assembly```
 3. A fat far file will be created in 'LogFileGenerator/target/scala-version'.
